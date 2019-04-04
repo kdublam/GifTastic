@@ -29,17 +29,21 @@
 
     <div class="container">
         <h1>Gif Search</h1>
+        <h5>Click the buttons of each athlete to see the gifs</h5>
     
         <!-- Buttons will Get Dumped Here -->
         <div id="buttons-view"></div>
+        <br>
     
         <form id="search-form">
-          <label for="athlete-input">Add a new Gif</label>
+          <label for="athlete-input">Add your own athlete:</label>
           <input type="text" id="athlete-input"><br>
     
           <!-- Button triggers new movie to be added -->
-          <input id="add-athlete" type="submit" value="Submit">
+          <input id="add-athlete" class="btn btn-primary" type="submit" value="Submit">
         </form>
+
+        <h3 id="instruct"></h3><br>
         <div id="gif-space"></div>
     <script src="assets/javascript/app.js" type="text/javascript"></script>
 
