@@ -7,7 +7,7 @@ function displayGif() {
     var athlete = $(this).attr("data-name");
     console.log(athlete);
     $("#gif-space").empty();
-    var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=MtF2EsI3nTA6HfTPSUbOkUC4i0LBGHwb&limit=10&q=" + athlete;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=MtF2EsI3nTA6HfTPSUbOkUC4i0LBGHwb&limit=10&q=" + athlete;
     $.ajax({
         url: queryURL,
         method: "GET"
